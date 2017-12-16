@@ -1,0 +1,14 @@
+Sometimes the execution of python3.X interpreter can be without some modules that the program requires.
+In this case, pip is our salvation:
+    
+    $ pip install wmi  #Windows Management Instrumentation(WMI) is a set of extensions to the Windows Driver Model that provides an operating system interface through which instrumented components can provide information and notification.
+    
+    $ pip install pypiwin32  #PyWin32 is a Python wrapper to Windows specific functionality and C APIs. (*This is required for the win32com module which is imported in program's code*)
+    
+    $ pip install matplotlib  # It provides both a very quick way to visualize data from Python and publication-quality figures in many formats.
+    
+    $ pip install networkx #NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+    
+    $ The final module PyQt4 is required. Currently, we don't have direct installation with pip. But, from the oficial website the PyQt4 can be 
+      donwloaded. #Attention, the next URL that i provide is not from the official site, but you can download the .whl of PyQ4:
+      WARN,THIS IS NOT AN OFFICIAL SITE:  https://www.lfd.uci.edu/%7Egohlke/pythonlibs/#pyqt4
