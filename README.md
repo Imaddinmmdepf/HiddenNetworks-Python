@@ -10,4 +10,11 @@ Functionality: There are three main operations. The first is to extract informat
 
 •	Draw the network with a CSV file (“Plot single CSV”). Through this option, the network generated through the application beforehand can be drawn directly.
 
+# requirements:
+  With pip executable you have to have installed all imported modules of the program.
+       $ pip install wmi 
+       $ pip install pypwin32 # notice that the previous one is required for win32com which is imported in the program code.
+       $ pip install matplotib
+       $ pip install networkx
+  
 Thanks!
